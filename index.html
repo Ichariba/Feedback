@@ -24,13 +24,15 @@
     
     <div class="faces">
         <span class="face" onclick="seleccionarCarita(1, this)">😡</span>
+        <span class="face" onclick="seleccionarCarita(2, this)">🙁</span>
         <span class="face" onclick="seleccionarCarita(3, this)">😐</span>
-        <span class="face" onclick="seleccionarCarita(5, this)">😍</span>
+        <span class="face" onclick="seleccionarCarita(4, this)">🙂</span>
+        <span class="face" onclick="seleccionarCarita(5, this)">🤩</span>
     </div>
 
     <input type="text" id="nombre" placeholder="Tu nombre (opcional)">
     <input type="tel" id="telefono" placeholder="WhatsApp (opcional)">
-    <textarea id="comentario" rows="3" placeholder="¿Algo que quieras decirnos?"></textarea>
+    <textarea id="comentario" rows="3" placeholder="Comentario (Opcional)"></textarea>
     
     <button id="btnEnviar" onclick="enviarTodo()" disabled>Enviar Opinión</button>
     <div id="status"></div>
